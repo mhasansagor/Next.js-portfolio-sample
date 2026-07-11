@@ -1,0 +1,56 @@
+<svg
+                viewBox="0 0 400 500"
+                className="absolute inset-0 w-full h-full"
+                preserveAspectRatio="xMidYMid slice"
+              >
+                <defs>
+                  <linearGradient id="aboutBg" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stopColor="#0C263C" />
+                    <stop offset="100%" stopColor="#011629" />
+                  </linearGradient>
+                  <linearGradient id="aboutShirt" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stopColor="#E97451" />
+                    <stop offset="100%" stopColor="#A04E32" />
+                  </linearGradient>
+                  <linearGradient id="aboutSkin" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stopColor="#F5D5B8" />
+                    <stop offset="100%" stopColor="#D9A87C" />
+                  </linearGradient>
+                </defs>
+                <rect width="400" height="500" fill="url(#aboutBg)" />
+
+                {/* Halo ring */}
+                <circle cx="200" cy="220" r="130" fill="none" stroke="#23425B" strokeWidth="1" strokeDasharray="4 4" opacity="0.5" />
+                <circle cx="200" cy="220" r="150" fill="none" stroke="#173248" strokeWidth="1" opacity="0.4" />
+
+                {/* Body */}
+                <path d="M 70 500 Q 70 360 200 335 Q 330 360 330 500 Z" fill="url(#aboutShirt)" />
+                {/* Collar */}
+                <path d="M 170 345 L 200 365 L 230 345 L 220 380 L 180 380 Z" fill="#011629" opacity="0.6" />
+
+                {/* Neck */}
+                <rect x="178" y="275" width="44" height="70" fill="url(#aboutSkin)" />
+                {/* Head */}
+                <ellipse cx="200" cy="220" rx="74" ry="88" fill="url(#aboutSkin)" />
+                {/* Hair */}
+                <path
+                  d="M 126 200 Q 134 115 200 105 Q 274 115 274 200 Q 270 175 248 170 Q 230 145 200 150 Q 170 145 152 170 Q 134 175 126 200 Z"
+                  fill="#0C1A28"
+                />
+                {/* Eyes */}
+                <ellipse cx="174" cy="222" rx="5.5" ry="7.5" fill="#0C1A28" />
+                <ellipse cx="226" cy="222" rx="5.5" ry="7.5" fill="#0C1A28" />
+                {/* Brows */}
+                <rect x="162" y="203" width="22" height="3" rx="1.5" fill="#0C1A28" />
+                <rect x="216" y="203" width="22" height="3" rx="1.5" fill="#0C1A28" />
+                {/* Nose */}
+                <path d="M 200 232 L 196 252 L 204 252 Z" fill="#C49070" opacity="0.6" />
+                {/* Smile */}
+                <path d="M 182 270 Q 200 282 218 270" stroke="#7C3A3A" strokeWidth="3" fill="none" strokeLinecap="round" />
+                {/* Glasses */}
+                <circle cx="174" cy="222" r="22" stroke="#011629" strokeWidth="2.5" fill="none" />
+                <circle cx="226" cy="222" r="22" stroke="#011629" strokeWidth="2.5" fill="none" />
+                <line x1="196" y1="222" x2="204" y2="222" stroke="#011629" strokeWidth="2.5" />
+                {/* Beard */}
+                <path d="M 160 265 Q 200 305 240 265 Q 235 290 215 295 Q 200 300 185 295 Q 165 290 160 265 Z" fill="#0C1A28" opacity="0.25" />
+              </svg>
