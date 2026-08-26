@@ -14,8 +14,8 @@ import SectionTitle from "@/components/ui-portfolio/section-title";
 
 const PILLS = [
   { icon: MapPin, label: "Dhaka, Bangladesh" },
-  { icon: Mail, label: "cse.mhasan158@gmail.com" },
-  { icon: Globe, label: "mhasansagor.netlify.app" },
+  { icon: Mail, label: "contact@mhasansagor.me" },
+  { icon: Globe, label: "mhasansagor.me" },
   { icon: Coffee, label: "Available for hire" },
   { icon: Award, label: "Awwwards Honoree" },
   { icon: BookOpen, label: "Open-source maintainer" },
