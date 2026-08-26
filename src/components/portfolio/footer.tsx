@@ -40,12 +40,12 @@ export default function Footer() {
                 <span className="font-mono font-bold text-[#011629] text-sm">M</span>
               </div>
               <span className="font-mono font-medium text-[18px] tracking-tight text-[#F5F7FA]">
-                Matthew<span className="text-[#E97451]">.</span>D
+                Mehedi<span className="text-[#E97451]">.</span>Hasan
               </span>
             </button>
             <p className="font-mono text-[14px] text-[#6E7B88] leading-[24px] max-w-xs">
               Senior frontend engineer crafting futuristic, performant web
-              experiences from San Francisco.
+              experiences from Bangladesh.
             </p>
             <div className="mt-5 flex gap-2">
               {SOCIALS.map((s) => (
@@ -100,10 +100,10 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="mt-12 pt-6 border-t border-[#173248] flex flex-col sm:flex-row items-center justify-between gap-3 font-mono text-[12px] text-[#6E7B88]">
-          <p>© {new Date().getFullYear()} Matthew Dodger. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Mehedi Hasan. All rights reserved.</p>
           <p className="inline-flex items-center gap-2">
             <span className="text-[#E97451]">{">"}</span>
-            Designed &amp; built in San Francisco
+            Designed &amp; built in Bangladesh
           </p>
         </div>
       </div>
