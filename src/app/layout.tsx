@@ -11,9 +11,9 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Matthew Dodger — Portfolio | Web Developer",
+  title: "Mehedi Hasan — Portfolio | Web Developer",
   description:
-    "Futuristic developer portfolio of Matthew Dodger, a senior web engineer crafting performant, beautiful digital experiences with React, Next.js & Tailwind CSS.",
+    "Futuristic developer portfolio of Mehedi Hasan, a senior web engineer crafting performant, beautiful digital experiences with React, Next.js & Tailwind CSS.",
   keywords: [
     "Portfolio",
     "Web Developer",
@@ -24,21 +24,19 @@ export const metadata: Metadata = {
     "Frontend Engineer",
     "Terminal Portfolio",
   ],
-  authors: [{ name: "Matthew Dodger" }],
-  icons: {
-    icon: "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
-  },
+  authors: [{ name: "Mehedi Hasan" }],
+  
   openGraph: {
-    title: "Matthew Dodger — Portfolio | Web Developer",
+    title: "Mehedi Hasanr — Portfolio | Web Developer",
     description:
-      "Futuristic developer portfolio of Matthew Dodger, a senior web engineer crafting performant digital experiences.",
+      "Futuristic developer portfolio of Mehedi Hasan, a senior web engineer crafting performant digital experiences.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Matthew Dodger — Portfolio | Web Developer",
+    title: "Mehedi Hasan — Portfolio | Web Developer",
     description:
-      "Futuristic developer portfolio of Matthew Dodger, a senior web engineer crafting performant digital experiences.",
+      "Futuristic developer portfolio of Mehedi Hasan, a senior web engineer crafting performant digital experiences.",
   },
 };
 
