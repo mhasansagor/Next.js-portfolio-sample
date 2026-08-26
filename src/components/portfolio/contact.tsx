@@ -12,11 +12,11 @@ import {
 } from "lucide-react";
 
 const CONTACTS = [
-  { icon: Mail, label: "Email", value: "hello@matthewdodger.dev", href: "mailto:hello@matthewdodger.dev", color: "#E97451" },
-  { icon: Phone, label: "Phone", value: "+1 (415) 555-0142", href: "tel:+14155550142", color: "#7EE7C4" },
-  { icon: Globe, label: "Website", value: "matthewdodger.dev", href: "#", color: "#5AA8FF" },
-  { icon: Linkedin, label: "LinkedIn", value: "in/matthewdodger", href: "#", color: "#7EE7C4" },
-  { icon: Github, label: "Github", value: "@matthewdodger", href: "#", color: "#E97451" },
+  { icon: Mail, label: "Email", value: "contact@mhasansagor.me", href: "mailto:contact@mhasansagor.me", color: "#E97451" },
+  { icon: Phone, label: "Phone", value: "+880 555-0142", href: "tel:+880 555-0142", color: "#7EE7C4" },
+  { icon: Globe, label: "Website", value: "mhasansagor.me", href: "#", color: "#5AA8FF" },
+  { icon: Linkedin, label: "LinkedIn", value: "in/mhasansagor", href: "#", color: "#7EE7C4" },
+  { icon: Github, label: "Github", value: "@mhasansagor", href: "#", color: "#E97451" },
 ];
 
 export default function Contact() {
@@ -93,7 +93,7 @@ export default function Contact() {
                   <span className="w-3 h-3 rounded-full bg-[#5AA8FF]/70" />
                 </div>
                 <span className="font-mono text-[12px] text-[#6E7B88] ml-2">
-                  matthew@dodger ~ contact %
+                 mehedi@hasan ~ contact %
                 </span>
               </div>
               <Terminal className="w-3.5 h-3.5 text-[#6E7B88]" />
